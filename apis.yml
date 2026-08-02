@@ -1,8 +1,18 @@
 aid: zenyum
 name: Zenyum
-description: 'Zenyum is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Zenyum is a Singapore-founded, direct-to-consumer oral-care and dental
+  company operating across Asia. Its flagship product is ZenyumClear invisible
+  braces (clear aligners) delivered through a network of partner clinics,
+  alongside a broader oral-care line that includes ZenyumSonic electric
+  toothbrushes, ZenyumBright whitening strips, serums and pens, toothpastes,
+  water flossers and floss. Zenyum sells online and through retail across
+  Singapore, Hong Kong, Taiwan, Malaysia, Indonesia, Thailand, Vietnam and
+  Japan, and is backed by venture investors including Partech. As of this
+  profile the company operates consumer e-commerce and clinic-partner surfaces
+  but publishes no public developer portal, API documentation, or GitHub
+  organization; this record captures its verifiable public web and domain
+  security footprint.
 url: https://raw.githubusercontent.com/api-evangelist/zenyum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,31 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.zenyum.com/favicon.ico
 tags:
 - Company
 - Healthcare
+- Dental
+- Oral Care
+- Clear Aligners
+- Consumer Health
+- E-Commerce
+- Direct to Consumer
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.zenyum.com/
+- type: Blog
+  url: https://www.zenyum.com/sg-en/smile-academy/
+- type: Support
+  url: https://zenyum.sg/pages/faqs
+- type: PrivacyPolicy
+  url: https://www.zenyum.com/sg-en/privacy
+- type: TermsOfService
+  url: https://www.zenyum.com/sg-en/website-terms-and-conditions
+- type: DomainSecurity
+  url: security/zenyum-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
